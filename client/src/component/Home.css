@@ -1,0 +1,50 @@
+.homeWrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: cadetblue;
+}
+
+.formWrapper{
+    background-color: rgb(45, 23, 89);
+    padding: 20px;
+    border-radius: 10px;    
+    width: 400px;
+    height: 300px;
+    max-width: 90%;
+}
+
+.inputGroup{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.inputBox{
+    display: flex;
+    width: 200px;
+    height: 20px;
+    border-radius: 5px;
+}
+
+.joinBtn{
+    color: black;
+    background-color: rgb(229, 146, 63);
+    font-size: 15px;
+    width: 50px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.createBtn{
+    color: black;
+    background-color: rgb(229, 146, 63);
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
